@@ -1,0 +1,14 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name label -->
+    <string name="app_name">Music Player</string>
+
+    <!-- Activity name labels -->
+    <string name="ninetiesCountry">90\'s Country</string>
+    <string name="classicCountry">Classic Country</string>
+    <string name="classicRock">Classic Rock</string>
+    <string name="newerMusic">Newer Music</string>
+    <string name="nowPlaying">Now Playing</string>
+
+    <!-- Number of songs in playlist. It will be shown in the format of "10 songs" where 10 is the number of songs. [CHAR LIMIT=20] -->
+    <string name="numberOfSongs"><xliff:g example="10" id="numberOfSongs">%s</xliff:g> songs</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Image sizes -->
+    <dimen name="coverArtSize">60dp</dimen>
+
+    <!-- Layout dimensions -->
+    <dimen name="layoutPadding">16dp</dimen>
+
+    <!-- Card dimensions -->
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="cardPadding">8dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="playlistLengthSize">16sp</dimen>
+    <dimen name="playlistSelectionSize">20sp</dimen>
+    <dimen name="nowPlayingCardHeight">245dp</dimen>
+    <dimen name="toolbarElevation">4dp</dimen>
+</resources>

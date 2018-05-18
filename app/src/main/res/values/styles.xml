@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Added to resolve a rendering error in Android Studio.-->
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+    <!-- 90's Country theme. -->
+    <style name="NinetiesCountryTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/ninetiesPrimary</item>
+        <item name="colorPrimaryDark">@color/ninetiesPrimaryDark</item>
+        <item name="colorAccent">@color/ninetiesAccent</item>
+    </style>
+
+    <!-- Classic Country theme. -->
+    <style name="ClassicCountryTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/classCountryPrimary</item>
+        <item name="colorPrimaryDark">@color/classCountryPrimaryDark</item>
+        <item name="colorAccent">@color/classCountryAccent</item>
+    </style>
+
+    <!-- Classic Rock theme. -->
+    <style name="ClassicRockTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/classRockPrimary</item>
+        <item name="colorPrimaryDark">@color/classRockPrimaryDark</item>
+        <item name="colorAccent">@color/classRockAccent</item>
+    </style>
+
+    <!-- Newer Music theme. -->
+    <style name="newerMusicTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/newerMusicPrimary</item>
+        <item name="colorPrimaryDark">@color/newerMusicPrimaryDark</item>
+        <item name="colorAccent">@color/newerMusicAccent</item>
+    </style>
+
+    <!-- Now Playing theme. -->
+    <style name="nowPlayingTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/nowPlayingPrimary</item>
+        <item name="colorPrimaryDark">@color/nowPlayingPrimaryDark</item>
+        <item name="colorAccent">@color/nowPlayingAccent</item>
+        <!-- Added to resolve a rendering error in Android Studio.-->
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+</resources>

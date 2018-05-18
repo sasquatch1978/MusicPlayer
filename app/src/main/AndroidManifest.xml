@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicplayer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PlaylistActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NinetiesCountryActivity"
+            android:label="@string/ninetiesCountry"
+            android:parentActivityName=".PlaylistActivity"
+            android:theme="@style/NinetiesCountryTheme" />
+        <activity
+            android:name=".ClassicCountryActivity"
+            android:label="@string/classicCountry"
+            android:parentActivityName=".PlaylistActivity"
+            android:theme="@style/ClassicCountryTheme" />
+        <activity
+            android:name=".ClassicRockActivity"
+            android:label="@string/classicRock"
+            android:parentActivityName=".PlaylistActivity"
+            android:theme="@style/ClassicRockTheme" />
+        <activity
+            android:name=".NewerMusicActivity"
+            android:label="@string/newerMusic"
+            android:parentActivityName=".PlaylistActivity"
+            android:theme="@style/newerMusicTheme" />
+        <activity
+            android:name=".NowPlayingActivity"
+            android:label="@string/nowPlaying"
+            android:parentActivityName=".PlaylistActivity"
+            android:theme="@style/nowPlayingTheme" />
+    </application>
+
+</manifest>
