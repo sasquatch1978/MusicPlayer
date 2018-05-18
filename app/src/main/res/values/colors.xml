@@ -6,7 +6,7 @@
     <!-- Home Screen colors -->
     <color name="colorPrimary">#4A1E9E</color>
     <color name="colorPrimaryDark">#341291</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#B4D02B</color>
     <color name="ninetiesHomeScreen">#DE1B11</color>
     <color name="classCountryHomeScreen">#FA7A02</color>
     <color name="classRockHomeScreen">#4CA15F</color>
@@ -41,6 +41,5 @@
     <!-- List colors -->
     <color name="songTitleColor">#1A75D2</color>
     <color name="songArtistColor">#404040</color>
-    <color name="toolbarText">#FFFFFF</color>
 
 </resources>

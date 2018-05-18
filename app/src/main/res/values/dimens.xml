@@ -15,4 +15,5 @@
     <dimen name="playlistSelectionSize">20sp</dimen>
     <dimen name="nowPlayingCardHeight">245dp</dimen>
     <dimen name="toolbarElevation">4dp</dimen>
+    <dimen name="seekbarPadding">40dp</dimen>
 </resources>

@@ -9,6 +9,12 @@
     <string name="newerMusic">Newer Music</string>
     <string name="nowPlaying">Now Playing</string>
 
+    <!-- Now Playing -->
+    <string name="titleNowPlaying">Title</string>
+    <string name="artistNowPlaying">Artist</string>
+    <string name="songPosition">0:00</string>
+    <string name="songDuration">0:00</string>
+
     <!-- Number of songs in playlist. It will be shown in the format of "10 songs" where 10 is the number of songs. [CHAR LIMIT=20] -->
     <string name="numberOfSongs"><xliff:g example="10" id="numberOfSongs">%s</xliff:g> songs</string>
 </resources>
