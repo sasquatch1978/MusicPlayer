@@ -21,107 +21,72 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:contentDescription="@null"
             android:src="@drawable/music" />
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/cardPadding"
+            style="@style/HomeScreenCard"
             card_view:cardCornerRadius="@dimen/cardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
                 android:id="@+id/ninetiesCountry"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="16dp"
+                style="@style/PlaylistSelection"
                 android:text="@string/ninetiesCountry"
-                android:textColor="@color/ninetiesHomeScreen"
-                android:textSize="@dimen/playlistSelectionSize" />
+                android:textColor="@color/ninetiesHomeScreen" />
 
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/cardPadding"
+            style="@style/HomeScreenCard"
             card_view:cardCornerRadius="@dimen/cardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
                 android:id="@+id/classicCountry"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="@dimen/layoutPadding"
+                style="@style/PlaylistSelection"
                 android:text="@string/classicCountry"
-                android:textColor="@color/classCountryHomeScreen"
-                android:textSize="@dimen/playlistSelectionSize" />
+                android:textColor="@color/classCountryHomeScreen" />
 
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/cardPadding"
+            style="@style/HomeScreenCard"
             card_view:cardCornerRadius="@dimen/cardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
                 android:id="@+id/classicRock"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="@dimen/layoutPadding"
+                style="@style/PlaylistSelection"
                 android:text="@string/classicRock"
-                android:textColor="@color/classRockHomeScreen"
-                android:textSize="@dimen/playlistSelectionSize" />
+                android:textColor="@color/classRockHomeScreen" />
 
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/cardPadding"
+            style="@style/HomeScreenCard"
             card_view:cardCornerRadius="@dimen/cardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
                 android:id="@+id/newerMusic"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="@dimen/layoutPadding"
+                style="@style/PlaylistSelection"
                 android:text="@string/newerMusic"
-                android:textColor="@color/newerMusicHomeScreen"
-                android:textSize="@dimen/playlistSelectionSize" />
+                android:textColor="@color/newerMusicHomeScreen" />
 
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/cardPadding"
+            style="@style/HomeScreenCard"
             card_view:cardCornerRadius="@dimen/cardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
                 android:id="@+id/nowPlaying"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:padding="@dimen/layoutPadding"
+                style="@style/PlaylistSelection"
                 android:text="@string/nowPlaying"
-                android:textColor="@color/nowPlayingHomeScreen"
-                android:textSize="@dimen/playlistSelectionSize" />
+                android:textColor="@color/nowPlayingHomeScreen" />
 
         </android.support.v7.widget.CardView>
-
     </LinearLayout>
 </ScrollView>

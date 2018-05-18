@@ -52,4 +52,38 @@
         <item name="cardViewStyle">@style/CardView</item>
     </style>
 
+    <style name="HomeScreenCard">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/cardPadding</item>
+    </style>
+
+    <style name="PlaylistSelection">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/layoutPadding</item>
+        <item name="android:textSize">@dimen/playlistSelectionSize</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/songArtistColor</item>
+    </style>
+
+    <style name="NowPlayingSong">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/playlistSelectionSize</item>
+    </style>
+
+    <style name="PlayerControl">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
 </resources>

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- ToolBar dimensions -->
+    <dimen name="toolbarElevation">4dp</dimen>
+
     <!-- Image sizes -->
     <dimen name="coverArtSize">60dp</dimen>
 
@@ -10,10 +13,11 @@
     <dimen name="cardCornerRadius">4dp</dimen>
     <dimen name="cardPadding">8dp</dimen>
 
+    <!-- SeekBar dimensions -->
+    <dimen name="seekbarPadding">40dp</dimen>
+
     <!-- Text Sizes -->
     <dimen name="playlistLengthSize">16sp</dimen>
     <dimen name="playlistSelectionSize">20sp</dimen>
     <dimen name="nowPlayingCardHeight">245dp</dimen>
-    <dimen name="toolbarElevation">4dp</dimen>
-    <dimen name="seekbarPadding">40dp</dimen>
 </resources>

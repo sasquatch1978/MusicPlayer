@@ -22,30 +22,22 @@ public class Song {
         length = songLength;
     }
 
-    /**
-     * Get the title of the song.
-     */
+    // Get the album cover of the song.
     public int getAlbumCover() {
         return cover;
     }
 
-    /**
-     * Get the title of the song.
-     */
+    // Get the title of the song.
     public String getSongTitle() {
         return title;
     }
 
-    /**
-     * Get the person or group who performs the song.
-     */
+    // Get the person or group who performs the song.
     public String getSongArtist() {
         return artist;
     }
 
-    /**
-     * Get the length of the song.
-     */
+    // Get the length of the song.
     public String getSongLength() {
         return length;
     }

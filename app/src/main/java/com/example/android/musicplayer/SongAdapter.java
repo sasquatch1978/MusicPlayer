@@ -34,11 +34,11 @@ public class SongAdapter extends ArrayAdapter<Song> {
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Song} object located at this position in the list
+        // Get the object located at this position in the list
         Song currentSong = getItem(position);
         assert currentSong != null;
 
-        // Get the song title and display the text
+        // Get the album cover and display the image
         ImageView albumCover = listItemView.findViewById(R.id.albumCover);
         albumCover.setImageResource(currentSong.getAlbumCover());
 
@@ -50,12 +50,13 @@ public class SongAdapter extends ArrayAdapter<Song> {
         TextView songArtist = listItemView.findViewById(R.id.songArtist);
         songArtist.setText(currentSong.getSongArtist());
 
-        // Get the song artist and display the text
+        // Get the song length and display the text
         TextView songLength = listItemView.findViewById(R.id.songLength);
         songLength.setText(currentSong.getSongLength());
 
-        // Return the whole list item layout (containing 2 TextViews and an ImageView)
-        // so that it can be shown in the ListView
+        /* Return the whole list item layout (containing 3 TextViews and an ImageView)
+           so that it can be shown in the ListView
+         */
         return listItemView;
     }
 }
