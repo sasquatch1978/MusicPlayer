@@ -98,17 +98,17 @@ public class ClassicCountryActivity extends AppCompatActivity {
            Source: https://pixabay.com/en/jewel-case-cd-cd-rom-disk-158216/
            Date: 4/14/18
          */
-        songs.add(new Song(R.drawable.jewel_case, "Kawliga", "Hank Williams", "2:35"));
-        songs.add(new Song(R.drawable.jewel_case, "I'm So Lonesome I Could Cry", "Hank Williams", "2:48"));
-        songs.add(new Song(R.drawable.jewel_case, "I Walk The Line", "Johnny Cash", "2:47"));
-        songs.add(new Song(R.drawable.jewel_case, "Folsom Prison Blues", "Johnny Cash", "2:53"));
-        songs.add(new Song(R.drawable.jewel_case, "El Paso", "Marty Robbins", "4:38"));
-        songs.add(new Song(R.drawable.jewel_case, "Coca Cola Cowboy", "Mel Tillis", "3:25"));
-        songs.add(new Song(R.drawable.jewel_case, "Sing Me Back Home", "Merle Haggard", "2:51"));
-        songs.add(new Song(R.drawable.jewel_case, "Mama Tried", "Merle Haggard", "2:12"));
-        songs.add(new Song(R.drawable.jewel_case, "Good Hearted Woman", "Waylon Jennings", "3:01"));
-        songs.add(new Song(R.drawable.jewel_case, "Luckenbach, Texas", "Waylon Jennings", "3:22"));
-        songs.add(new Song(R.drawable.jewel_case, "Amanda", "Waylon Jennings", "2:57"));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleOne), getString(R.string.classicCountryArtistOne), getString(R.string.classicCountryLengthOne)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleTwo), getString(R.string.classicCountryArtistOne), getString(R.string.classicCountryLengthTwo)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleThree), getString(R.string.classicCountryArtistTwo), getString(R.string.classicCountryLengthThree)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleFour), getString(R.string.classicCountryArtistTwo), getString(R.string.classicCountryLengthFour)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleFive), getString(R.string.classicCountryArtistThree), getString(R.string.classicCountryLengthFive)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleSix), getString(R.string.classicCountryArtistFour), getString(R.string.classicCountryLengthSix)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleSeven), getString(R.string.classicCountryArtistFive), getString(R.string.classicCountryLengthSeven)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleEight), getString(R.string.classicCountryArtistFive), getString(R.string.classicCountryLengthEight)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleNine), getString(R.string.classicCountryArtistSix), getString(R.string.classicCountryLengthNine)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleTen), getString(R.string.classicCountryArtistSix), getString(R.string.classicCountryLengthTen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicCountryTitleEleven), getString(R.string.classicCountryArtistSix), getString(R.string.classicCountryLengthEleven)));
     }
 
     // Display number of songs in playlist..

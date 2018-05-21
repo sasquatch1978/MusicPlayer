@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
     android:fillViewport="true"
-    android:padding="@dimen/layoutPadding"
+    android:padding="@dimen/allLayoutPadding"
     tools:context=".PlaylistActivity">
 
     <LinearLayout
@@ -21,12 +21,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:contentDescription="@null"
+            android:importantForAccessibility="no"
             android:src="@drawable/music" />
 
         <android.support.v7.widget.CardView
-            style="@style/HomeScreenCard"
-            card_view:cardCornerRadius="@dimen/cardCornerRadius"
+            style="@style/PlaylistCard"
+            card_view:cardCornerRadius="@dimen/allCardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
@@ -38,21 +38,21 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            style="@style/HomeScreenCard"
-            card_view:cardCornerRadius="@dimen/cardCornerRadius"
+            style="@style/PlaylistCard"
+            card_view:cardCornerRadius="@dimen/allCardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
                 android:id="@+id/classicCountry"
                 style="@style/PlaylistSelection"
                 android:text="@string/classicCountry"
-                android:textColor="@color/classCountryHomeScreen" />
+                android:textColor="@color/classicCountryHomeScreen" />
 
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            style="@style/HomeScreenCard"
-            card_view:cardCornerRadius="@dimen/cardCornerRadius"
+            style="@style/PlaylistCard"
+            card_view:cardCornerRadius="@dimen/allCardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
@@ -64,8 +64,8 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            style="@style/HomeScreenCard"
-            card_view:cardCornerRadius="@dimen/cardCornerRadius"
+            style="@style/PlaylistCard"
+            card_view:cardCornerRadius="@dimen/allCardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView
@@ -77,8 +77,8 @@
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
-            style="@style/HomeScreenCard"
-            card_view:cardCornerRadius="@dimen/cardCornerRadius"
+            style="@style/PlaylistCard"
+            card_view:cardCornerRadius="@dimen/allCardCornerRadius"
             card_view:cardUseCompatPadding="true">
 
             <TextView

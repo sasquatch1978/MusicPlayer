@@ -14,7 +14,7 @@ public class NowPlayingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.now_playing);
+        setContentView(R.layout.activity_now_playing);
 
         // Identify the view
         appToolbar = findViewById(R.id.appToolbar);

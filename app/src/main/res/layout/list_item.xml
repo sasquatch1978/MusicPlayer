@@ -4,19 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/backgroundColor"
-    android:paddingTop="@dimen/layoutPadding">
+    android:paddingTop="@dimen/allLayoutPadding">
 
     <ImageView
         android:id="@+id/albumCover"
-        android:layout_width="@dimen/coverArtSize"
-        android:layout_height="@dimen/coverArtSize"
+        android:layout_width="@dimen/listItemCoverArtSize"
+        android:layout_height="@dimen/listItemCoverArtSize"
         android:contentDescription="@null" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/layoutPadding"
-        android:layout_marginStart="@dimen/layoutPadding"
+        android:layout_marginLeft="@dimen/allLayoutPadding"
+        android:layout_marginStart="@dimen/allLayoutPadding"
         android:layout_toEndOf="@id/albumCover"
         android:layout_toRightOf="@id/albumCover"
         android:orientation="vertical">

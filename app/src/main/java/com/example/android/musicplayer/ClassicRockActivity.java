@@ -98,22 +98,22 @@ public class ClassicRockActivity extends AppCompatActivity {
            Source: https://pixabay.com/en/jewel-case-cd-cd-rom-disk-158216/
            Date: 4/14/18
          */
-        songs.add(new Song(R.drawable.jewel_case, "Dirty Deeds Done Dirt Cheap", "AC/DC", "3:51"));
-        songs.add(new Song(R.drawable.jewel_case, "T.N.T", "AC/DC", "3:34"));
-        songs.add(new Song(R.drawable.jewel_case, "Here Comes The Sun", "The Beatles", "3:05"));
-        songs.add(new Song(R.drawable.jewel_case, "Eleanor Rigby", "The Beatles", "2:06"));
-        songs.add(new Song(R.drawable.jewel_case, "Don't Fear The Reaper", "Blue Öyster Cult", "5:08"));
-        songs.add(new Song(R.drawable.jewel_case, "I Want You To Want Me", "Cheap Trick", "3:45"));
-        songs.add(new Song(R.drawable.jewel_case, "I Fought The Law", "The Clash", "2:43"));
-        songs.add(new Song(R.drawable.jewel_case, "Rebel Rebel", "David Bowie", "4:34"));
-        songs.add(new Song(R.drawable.jewel_case, "Space Oddity", "David Bowie", "5:16"));
-        songs.add(new Song(R.drawable.jewel_case, "Smoke On The Water", "Deep Purple", "5:42"));
-        songs.add(new Song(R.drawable.jewel_case, "Riders On The Storm", "The Doors", "7:14"));
-        songs.add(new Song(R.drawable.jewel_case, "Rocket Man", "Elton John", "4:41"));
-        songs.add(new Song(R.drawable.jewel_case, "Third Time Lucky", "Foghat", "4:12"));
-        songs.add(new Song(R.drawable.jewel_case, "Immigrant Song", "Led Zeppelin", "2:26"));
-        songs.add(new Song(R.drawable.jewel_case, "Misty Mountain Hop", "Led Zeppelin", "4:38"));
-        songs.add(new Song(R.drawable.jewel_case, "Fool In The Rain", "Led Zeppelin", "6:12"));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleOne), getString(R.string.classicRockArtistOne), getString(R.string.classicRockLengthOne)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleTwo), getString(R.string.classicRockArtistOne), getString(R.string.classicRockLengthTwo)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleThree), getString(R.string.classicRockArtistTwo), getString(R.string.classicRockLengthThree)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleFour), getString(R.string.classicRockArtistTwo), getString(R.string.classicRockLengthFour)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleFive), getString(R.string.classicRockArtistThree), getString(R.string.classicRockLengthFive)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleSix), getString(R.string.classicRockArtistFour), getString(R.string.classicRockLengthSix)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleSeven), getString(R.string.classicRockArtistFive), getString(R.string.classicRockLengthSeven)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleEight), getString(R.string.classicRockArtistSix), getString(R.string.classicRockLengthEight)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleNine), getString(R.string.classicRockArtistSix), getString(R.string.classicRockLengthNine)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleTen), getString(R.string.classicRockArtistSeven), getString(R.string.classicRockLengthTen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleEleven), getString(R.string.classicRockArtistEight), getString(R.string.classicRockLengthEleven)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleTwelve), getString(R.string.classicRockArtistNine), getString(R.string.classicRockLengthTwelve)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleThirteen), getString(R.string.classicRockArtistTen), getString(R.string.classicRockLengthThirteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleFourteen), getString(R.string.classicRockArtistEleven), getString(R.string.classicRockLengthFourteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleSixteen), getString(R.string.classicRockArtistEleven), getString(R.string.classicRockLengthFifteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.classicRockTitleSeventeen), getString(R.string.classicRockArtistEleven), getString(R.string.classicRockLengthSixteen)));
     }
 
     // Display number of songs in playlist.

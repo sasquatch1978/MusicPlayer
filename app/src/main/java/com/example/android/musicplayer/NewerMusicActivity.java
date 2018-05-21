@@ -98,23 +98,23 @@ public class NewerMusicActivity extends AppCompatActivity {
            Source: https://pixabay.com/en/jewel-case-cd-cd-rom-disk-158216/
            Date: 4/14/18
          */
-        songs.add(new Song(R.drawable.jewel_case, "Fluorescent Adolescent", "Arctic Monkeys", "2:53"));
-        songs.add(new Song(R.drawable.jewel_case, "Leave Before The Lights Come On", "Arctic Monkeys", "3:53"));
-        songs.add(new Song(R.drawable.jewel_case, "Weapon Of Choice", "Black Rebel Motorcycle Club", "2:49"));
-        songs.add(new Song(R.drawable.jewel_case, "Beat the Devil's Tattoo", "Black Rebel Motorcycle Club", "3:45"));
-        songs.add(new Song(R.drawable.jewel_case, "Photograph", "Ed Sheeran", "4:19"));
-        songs.add(new Song(R.drawable.jewel_case, "Castle on the Hill", "Ed Sheeran", "4:21"));
-        songs.add(new Song(R.drawable.jewel_case, "Shape of You", "Ed Sheeran", "4:53"));
-        songs.add(new Song(R.drawable.jewel_case, "HandClap", "Fitz and The Tantrums", "3:13"));
-        songs.add(new Song(R.drawable.jewel_case, "Decent Days And Nights", "The Futureheads", "2:32"));
-        songs.add(new Song(R.drawable.jewel_case, "Downtown", "Macklemore & Ryan Lewis", "4:52"));
-        songs.add(new Song(R.drawable.jewel_case, "Can't Hold Us", "Macklemore & Ryan Lewis", "4:18"));
-        songs.add(new Song(R.drawable.jewel_case, "Girls Who Play Guitar", "Maximo Park", "3:12"));
-        songs.add(new Song(R.drawable.jewel_case, "Our Velocity", "Maximo Park", "3:20"));
-        songs.add(new Song(R.drawable.jewel_case, "Time to Pretend", "MGMT", "4:21"));
-        songs.add(new Song(R.drawable.jewel_case, "Say Hey (I Love You)", "Michael Franti & Spearhead", "3:55"));
-        songs.add(new Song(R.drawable.jewel_case, "Little Lion Man", "Mumford & Sons", "4:07"));
-        songs.add(new Song(R.drawable.jewel_case, "Resistance", "Muse", "5:46"));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleOne), getString(R.string.newerMusicArtistOne), getString(R.string.newerMusicLengthOne)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleTwo), getString(R.string.newerMusicArtistOne), getString(R.string.newerMusicLengthTwo)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleThree), getString(R.string.newerMusicArtistTwo), getString(R.string.newerMusicLengthThree)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleFour), getString(R.string.newerMusicArtistTwo), getString(R.string.newerMusicLengthFour)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleFive), getString(R.string.newerMusicArtistThree), getString(R.string.newerMusicLengthFive)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleSix), getString(R.string.newerMusicArtistThree), getString(R.string.newerMusicLengthSix)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleSeven), getString(R.string.newerMusicArtistThree), getString(R.string.newerMusicLengthSeven)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleEight), getString(R.string.newerMusicArtistFour), getString(R.string.newrMusicLengthEight)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleNine), getString(R.string.newrMusicArtistFive), getString(R.string.newerMusicLengthNine)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleTen), getString(R.string.newerMusicArtistSix), getString(R.string.newerMusicLengthTen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleEleven), getString(R.string.newerMusicArtistSix), getString(R.string.newerMusicLengthEleven)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleTwelve), getString(R.string.newerMusicArtistSeven), getString(R.string.newerMusicLengthTwelve)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleThirteen), getString(R.string.newerMusicArtistSeven), getString(R.string.newerMusicLengthThirteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleFourteen), getString(R.string.newerMusicArtistEight), getString(R.string.newerMusicLengthFourteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleFifteen), getString(R.string.newerMusicArtistNine), getString(R.string.newerMusicLengthFifteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleSixteen), getString(R.string.newerMusicArtistTen), getString(R.string.newerMusicLengthSixteen)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.newerMusicTitleSeventeen), getString(R.string.newerMusicArtistEleven), getString(R.string.newerMusicLengthSeventeen)));
     }
 
     // Display number of songs in playlist.

@@ -13,14 +13,14 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        android:elevation="@dimen/toolbarElevation"
+        android:elevation="@dimen/allToolbarElevation"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true"
-        android:padding="@dimen/layoutPadding">
+        android:padding="@dimen/allLayoutPadding">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,22 +31,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
-                android:contentDescription="@null"
+                android:contentDescription="@string/descriptionCoverArt"
                 android:src="@drawable/jewel_case" />
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/layoutPadding"
-                card_view:cardCornerRadius="@dimen/cardCornerRadius"
+                android:layout_marginTop="@dimen/allLayoutPadding"
+                card_view:cardCornerRadius="@dimen/allCardCornerRadius"
                 card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:padding="@dimen/layoutPadding">
+                    android:padding="@dimen/allLayoutPadding">
 
                     <TextView
                         style="@style/NowPlayingSong"
@@ -61,14 +61,14 @@
                     <SeekBar
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingTop="@dimen/seekbarPadding" />
+                        android:paddingTop="@dimen/nowPlayingSeekBarPadding" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingBottom="@dimen/layoutPadding"
-                        android:paddingLeft="@dimen/layoutPadding"
-                        android:paddingRight="@dimen/layoutPadding">
+                        android:paddingBottom="@dimen/allLayoutPadding"
+                        android:paddingLeft="@dimen/allLayoutPadding"
+                        android:paddingRight="@dimen/allLayoutPadding">
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -93,23 +93,23 @@
 
                         <ImageView
                             style="@style/PlayerControl"
-                            android:contentDescription="@string/skipPrevious"
-                            android:src="@drawable/previous" />
+                            android:contentDescription="@string/descriptionSkipPrevious"
+                            android:src="@drawable/ic_previous" />
 
                         <ImageView
                             style="@style/PlayerControl"
-                            android:contentDescription="@string/stop"
-                            android:src="@drawable/stop" />
+                            android:contentDescription="@string/descriptionStop"
+                            android:src="@drawable/ic_stop" />
 
                         <ImageView
                             style="@style/PlayerControl"
-                            android:contentDescription="@string/play"
-                            android:src="@drawable/play" />
+                            android:contentDescription="@string/descriptionPlay"
+                            android:src="@drawable/ic_play" />
 
                         <ImageView
                             style="@style/PlayerControl"
-                            android:contentDescription="@string/skipNext"
-                            android:src="@drawable/next" />
+                            android:contentDescription="@string/descriptionSkipNext"
+                            android:src="@drawable/ic_next" />
 
                     </LinearLayout>
                 </LinearLayout>

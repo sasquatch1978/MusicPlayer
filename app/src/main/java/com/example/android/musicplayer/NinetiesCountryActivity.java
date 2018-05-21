@@ -98,15 +98,15 @@ public class NinetiesCountryActivity extends AppCompatActivity {
            Source: https://pixabay.com/en/jewel-case-cd-cd-rom-disk-158216/
            Date: 4/14/18
          */
-        songs.add(new Song(R.drawable.jewel_case, "Don't Rock the Jukebox", "Alan Jackson", "2:51"));
-        songs.add(new Song(R.drawable.jewel_case, "Chattahoochee", "Alan Jackson", "2:28"));
-        songs.add(new Song(R.drawable.jewel_case, "Brand New Man", "Brooks & Dunn", "2:58"));
-        songs.add(new Song(R.drawable.jewel_case, "Boot Scootin' Boogie", "Brooks & Dunn", "3:17"));
-        songs.add(new Song(R.drawable.jewel_case, "Two Of A Kind, Workin' On A Full House", "Garth Brooks", "2:33"));
-        songs.add(new Song(R.drawable.jewel_case, "The River", "Garth Brooks", "4:29"));
-        songs.add(new Song(R.drawable.jewel_case, "Easy Come, Easy Go", "George Strait", "3:04"));
-        songs.add(new Song(R.drawable.jewel_case, "Should've Been A Cowboy", "Toby Keith", "3:31"));
-        songs.add(new Song(R.drawable.jewel_case, "How Do You Like Me Now?!", "Toby Keith", "3:29"));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleOne), getString(R.string.ninetiesArtistOne), getString(R.string.ninetiesLengthOne)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleTwo), getString(R.string.ninetiesArtistOne), getString(R.string.ninetiesLengthTwo)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleThree), getString(R.string.ninetiesArtistTwo), getString(R.string.ninetiesLengthThree)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleFour), getString(R.string.ninetiesArtistTwo), getString(R.string.ninetiesLengthFour)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleFive), getString(R.string.ninetiesArtistThree), getString(R.string.ninetiesLengthFive)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleSix), getString(R.string.ninetiesArtistThree), getString(R.string.ninetiesLengthSix)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleSeven), getString(R.string.ninetiesArtistFour), getString(R.string.ninetiesLengthSeven)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleEight), getString(R.string.ninetiesArtistFive), getString(R.string.ninetiesLengthEight)));
+        songs.add(new Song(R.drawable.jewel_case, getString(R.string.ninetiesTitleNine), getString(R.string.ninetiesArtistFive), getString(R.string.ninetiesLengthNine)));
     }
 
     // Display number of songs in playlist..
